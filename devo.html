@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:lightblue;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:lightblue;
+
+}
+
+/* Style the topnav links */
+.topnav a{
+    float:left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:white;
+    color: #4169E1;
+}
+/*properties for image
+
+.conten{
+ background-image: url("lab.png");
+
+ width: 800px;
+ height: 250px;
+ margin-top: 35px;
+ margin-left: 280px;
+}*/
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.row h2{
+  text-align: center;
+
+}
+.row p{
+text-align: center;
+}
+#contact{
+  background-color:indigo;
+}
+.button {
+    background-color:lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:2px 4px;
+    cursor: pointer;
+    margin-left: 120px;
+
+}
+
+
+
+</style>
+</head>
+<body>
+<!--icon-->
+<div class="header w3-indigo">
+
+  <i class="fa fa-cog" style="font-size:30px"></i>
+  <h1 style="color:white;font-size:30px;font-style: oblique;font-family:Times "><a  style="color:white"href="https://m.facebook.com/groups/1093138324163224?id=1093138324163224&ref=content_filter&_rdr">Friends Code For Baghdad</h1></a>
+</div>
+<!--navbar-->
+
+<div class="topnav w3-indigo ">
+  <a href="#">HOMEPAGE</a>
+      <a href="#path">WORKS</a>
+  <a href="#ourteam">OUR TEAM</a>
+
+
+      <a href="#contact">CONTACT US</a></div>
+
+<!--for image"--
+
+<div class="conten">
+  <!-- <div class="embed-responsive embed-responsive-4by3">
+     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y_9SwDFd_9Y"></iframe>
+   </div>
+ </div>-->
+ <!-- Slideshow --
+ <br>
+   <div class="w3-container">
+     <div class="w3-display-container mySlides">
+       <img src="avatar3.png" style="width:100% ;height:400px ">
+       <div class="w3-display-topleft w3-container w3-padding-32">
+         <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+       </div>
+     </div>
+     <div class="w3-display-container mySlides">
+       <img src="lab.png" style="width:100%;height:400px">
+       <div class="w3-display-middle w3-container w3-padding-32">
+         <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+       </div>
+     </div>
+     <div class="w3-display-container mySlides">
+       <img src="music.png" style="width:100%;height:400px">
+       <div class="w3-display-topright w3-container w3-padding-32">
+         <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+       </div>
+     </div>
+
+     <!-- Slideshow next/previous buttons --
+     <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+       <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+       <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+       <div class="w3-center">
+         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+       </div>
+     </div>
+   </div>-->
+
+   <h2 style="font-style:oblique;font-family:Times" class="w3-center" >FC4B</h2>
+   <div class="w3-content" style="max-width:800px ;position:relative">
+
+   <img class="mySlides w3-animate-opacity" src="c1.jpg" style="width:100%;height:250px">
+   <img class="mySlides w3-animate-opacity" src="c2.jpg" style="width:100% ;height:250px">
+   <img class="mySlides w3-animate-opacity" src="lab.png" style="width:100% ;height:250px">
+   <img class="mySlides w3-animate-opacity" src="c3.jpg" style="width:100% ;height:250px">
+
+
+
+   <a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+   <a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+   </div>
+
+<br>
+<!--coloumns --->
+<div>
+  <h2 style="text-align:center;font-family:Times">WELCOME TO OUR WEBSITE</h2>
+<p style="text-align:center">  <b>Thank you</b> for joining our site we hope to benefit and enjoy the development of your skills.In this site you will learn the development of sites and mobile applications,<a href="https://www.youtube.com/channel/UC7OGxluGpaD5NHMNoKj33pw" >comprehensive courses depend on the practical application</a> starts with you from scratch and take you step by step to professionalism</p>
+
+</div>
+<br><br>
+<hr>
+<br>
+<div id="path" class="row">
+  <div class="column">
+    <img src="html.png"height="150px"style="margin-left:120px">
+    <p>HTML is the standard markup language for creating Web pages.
+
+HTML stands for Hyper Text Markup Language
+HTML describes the structure of Web pages using markup
+HTML elements are the building blocks of HTML pages
+HTML elements are represented by tags
+</p>
+<br><br>
+<div class="container">
+  <div style="margin-left:120px">
+  <a href="https://youtu.be/OU0CBOrPZss" class="btn btn-primary" role="button">
+ <input type="button" class="btn btn-primary" value="Click here"></a></div>
+
+</div></div>
+  <div class="column">
+    <img src="css3.png"height="150px"style="margin-left:120px">
+
+    <p>CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+</p>
+<br><br>
+<div class="container">
+  <div style="margin-left:120px">
+  <a href="https://youtu.be/n2jQu8VBNWY" class="btn btn-primary" role="button">
+ <input type="button" class="btn btn-primary" value="Click here"></a></div>
+
+</div></div>
+
+  <div class="column">
+    <img src="boot.png"height="150px"style="margin-left:120px">
+
+
+
+      <p>Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs</p>
+<div class="container">
+  <div style="margin-left:120px">
+  <a href="https://youtu.be/nEq8prQVtz0" class="btn btn-primary" role="button">
+ <input type="button" class="btn btn-primary" value="Click here"></a></div>
+
+</div></div></div>
+<br>
+<hr>
+<div class="row">
+  <div class="column">
+    <img src="angl.jpg"height="100px"style="margin-left:120px">
+
+    <p>Angular 6 is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc.</p>
+
+    <div class="container">
+      <div style="margin-left:120px">
+      <a href="https://youtu.be/RPWVsIzKG8o" class="btn btn-primary" role="button">
+     <input type="button" class="btn btn-primary" value="Click here"></a></div>
+
+   </div></div>
+  <div class="column">
+
+    <img src="ioni.png"height="100px"style="margin-left:120px">
+    <p>an open source development package to develop hybrid applications for smart phone operating systems. Ionic is built primarily on Angular GSM and Cordova. Onec offers many tools to develop hybrid applications for smartphones by using Web technologies such as HTML5, CSS, and SASS.
+
+
+    </p>
+
+    <div class="container">
+      <div style="margin-left:120px">
+      <a href="https://youtu.be/iCq4JQ8WFWc" class="btn btn-primary" role="button">
+     <input type="button" class="btn btn-primary" value="Click here"></a></div>
+
+    </div></div>
+
+  <div class="column">
+    <img src="sql.png"height="100px"style="margin-left:120px">
+    <p>SQL stands for Structured Query Language
+SQL lets you access and manipulate databases
+SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+</p>
+<br>
+
+<div class="container">
+  <div style="margin-left:120px">
+  <a href="https://youtu.be/9v5SRV3ijFQ" class="btn btn-primary" role="button">
+ <input  type="button" class="btn btn-primary" value="Click here"></a></div>
+<br>
+</div></div>
+  </div>
+  <hr>
+  <!-- Team Container --
+  <div class="w3-content" style="max-width:800px ;position:relative">
+  <div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2 id="ourteam">OUR TEAM</h2>
+  <p>Meet the team - Our Leaders</p>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="esaa.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Mohammed Essa</h3>
+    <p>Professional programmer</p>
+  </div>
+
+
+
+  <div class="w3-quarter">
+    <img src="es.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Esamah</h3>
+    <p>Support</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="zz2.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Zahraa Mohammed</h3>
+    <p>Asistant</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="sh.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Sherin</h3>
+    <p>Addtional assistant</p>
+  </div>
+  <a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+  <a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+  </div>
+
+  </div>
+</div>-->
+<br>
+<h2   style="font-size:40px;font-family:Times"id="ourteam"class="w3-center">OUR TEAM</h2>
+<div class="w3-border w3-indigo ">
+<div class="w3-bar w3-theme ">
+
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'essa')">  <img src="esaa.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'zahraa')">  <img src="s.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'heba')">  <img src="zz2.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'ghufran')">  <img src="mm.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'marem')">  <img src="h.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'saja')">  <img src="gg.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'girls')">  <img src="l.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'lady')">  <img src="ge.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'alkut')">  <img src="rr.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'alia')">  <img src="pp.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'tamara')">  <img src="sh.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'marwa')">  <img src="nn.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+<button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'huda')">  <img src="tt.jpg" alt="Boss" style="width:70px" class="w3-circle w3-hover-opacity"></button>
+</div>
+</div>
+
+<div id="essa" class="w3-container city w3-animate-opacity">
+
+  <h2 style="font-size:40px;font-family:Times">Mohammed Essa</h2>
+  <p style="font-size:20px;font-family:Times">professionalism programmer</p>
+
+</div>
+
+<div id="zahraa" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Zahraa Mohammed</h2>
+  <p style="font-size:20px;font-family:Times">Project Manager</p>
+</div>
+
+<div id="heba" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Heba Dhirar</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+
+<div id="ghufran" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Ghufran Asaad</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+<div id="marem" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Mariam Blaybal</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+<div id="saja" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Saja Bahaa</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+<div id="girls" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Marem Basheer</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+<div id="lady" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Amena kasem</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+
+</div>
+<div id="alkut" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Zahraa Alkutabi</h2>
+  <p style="font-size:20px;font-family:Times"> Member</p>
+
+</div>
+<div id="alia" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Alia Tareq</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+</div>
+<div id="tamara" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Temara Riyadh</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+</div>
+<div id="marwa" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Marwa Ali</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+</div>
+<div id="huda" class="w3-container city w3-animate-opacity">
+  <h2 style="font-size:40px;font-family:Times">Huda Ahmed</h2>
+  <p style="font-size:20px;font-family:Times">Member</p>
+</div>
+
+
+
+
+
+</div>
+<br>
+<br>
+
+<!-- in css contact
+<div class="contact">
+  <br>
+  <br>
+<div class="w3-row w3-large w3-center" style="margin:32px 0">
+    <div class="w3-third"><i class="fa fa-map-marker w3-text-black"></i><br> 423 Some adr, Iraq,Baghdad </div>
+    <div class="w3-third"><i class="fa fa-phone w3-text-black"></i><br> Phone: +00 151515</div>
+    <div class="w3-third"><i class="fa fa-envelope w3-text-black"></i><br> Email: mail@mail.com</div>
+  </div>-->
+
+  <br>
+  <br>
+
+  <!-- Contact Container -->
+  <div style="margin-top:50px" class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+    <div class="w3-row">
+      <div class="w3-col m5">
+      <div class="w3-padding-16"><span class="w3-xlarge w3-border-indigo w3-bottombar">Contact Us</span></div>
+        <h3>Address</h3>
+
+        <p><i class="fa fa-map-marker w3-text-indigo w3-xxlarge"></i>Iraq, Baghdad</p>
+        <p><i class="fa fa-phone w3-text-indigo w3-xxlarge"></i>  +00 1515151515</p>
+        <p><i class="fa fa-envelope-o w3-text-indigo w3-xxlarge"></i>info@codeforiraq.org</p>
+      </div>
+      <div class="w3-col m7">
+        <form class="w3-container w3-card-4 w3-padding-16 w3-indigo" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" type="text" name="Message" required>
+        </div>
+        <input class="w3-check" type="checkbox" checked name="Like">
+        <label>I Like it!</label>
+        <button type="submit" class="w3-button w3-right w3-theme ">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+
+<footer  class="w3-padding-32 w3-indigo w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div  style="margin-top:50px"class="w3-xxlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div></div>
+</footer>
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+
+
+</script>
+<!--tabs-->
+<script>
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
